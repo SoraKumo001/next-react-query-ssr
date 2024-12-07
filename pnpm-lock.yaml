@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@tanstack/react-query':
-    specifier: ^5.62.2
-    version: 5.62.2(react@19.0.0)
+    specifier: ^5.62.3
+    version: 5.62.3(react@19.0.0)
   next:
     specifier: ^15.0.4
     version: 15.0.4(react-dom@19.0.0)(react@19.0.0)
@@ -18,16 +18,16 @@ dependencies:
     specifier: ^19.0.0
     version: 19.0.0(react@19.0.0)
   react-query-ssr:
-    specifier: ^0.0.1
-    version: 0.0.1
+    specifier: ^1.0.0
+    version: 1.0.0
 
 devDependencies:
   '@types/node':
     specifier: 22.10.1
     version: 22.10.1
   '@types/react':
-    specifier: 19.0.0
-    version: 19.0.0
+    specifier: 19.0.1
+    version: 19.0.1
   typescript:
     specifier: 5.7.2
     version: 5.7.2
@@ -308,16 +308,16 @@ packages:
       tslib: 2.8.1
     dev: false
 
-  /@tanstack/query-core@5.62.2:
-    resolution: {integrity: sha512-LcwVcC5qpsDpHcqlXUUL5o9SaOBwhNkGeV+B06s0GBoyBr8FqXPuXT29XzYXR36lchhnerp6XO+CWc84/vh7Zg==}
+  /@tanstack/query-core@5.62.3:
+    resolution: {integrity: sha512-Jp/nYoz8cnO7kqhOlSv8ke/0MJRJVGuZ0P/JO9KQ+f45mpN90hrerzavyTKeSoT/pOzeoOUkv1Xd0wPsxAWXfg==}
     dev: false
 
-  /@tanstack/react-query@5.62.2(react@19.0.0):
-    resolution: {integrity: sha512-fkTpKKfwTJtVPKVR+ag7YqFgG/7TRVVPzduPAUF9zRCiiA8Wu305u+KJl8rCrh98Qce77vzIakvtUyzWLtaPGA==}
+  /@tanstack/react-query@5.62.3(react@19.0.0):
+    resolution: {integrity: sha512-y2zDNKuhgiuMgsKkqd4AcsLIBiCfEO8U11AdrtAUihmLbRNztPrlcZqx2lH1GacZsx+y1qRRbCcJLYTtF1vKsw==}
     peerDependencies:
       react: ^18 || ^19
     dependencies:
-      '@tanstack/query-core': 5.62.2
+      '@tanstack/query-core': 5.62.3
       react: 19.0.0
     dev: false
 
@@ -327,8 +327,8 @@ packages:
       undici-types: 6.20.0
     dev: true
 
-  /@types/react@19.0.0:
-    resolution: {integrity: sha512-MY3oPudxvMYyesqs/kW1Bh8y9VqSmf+tzqw3ae8a9DZW68pUe3zAdHeI1jc6iAysuRdACnVknHP8AhwD4/dxtg==}
+  /@types/react@19.0.1:
+    resolution: {integrity: sha512-YW6614BDhqbpR5KtUYzTA+zlA7nayzJRA9ljz9CQoxthR0sDisYZLuvSMsil36t4EH/uAt8T52Xb4sVw17G+SQ==}
     dependencies:
       csstype: 3.1.3
     dev: true
@@ -472,8 +472,8 @@ packages:
       scheduler: 0.25.0
     dev: false
 
-  /react-query-ssr@0.0.1:
-    resolution: {integrity: sha512-KSYtS8C1io+y2LncBsmdN0jMm5GtmVDqy7fJKZ26oC/FDq/HqSlGSUvN32MQ58SFubiWH/MrUu5at33sooPJsA==}
+  /react-query-ssr@1.0.0:
+    resolution: {integrity: sha512-Jld5hecQLOuXJvoCwydZP7e8ZS5/pFomlZffBhazkVj7Ge9qjizK/zX/kHnZeURKYmhZHxloZtx65pvPnaUGpA==}
     dev: false
 
   /react@19.0.0:

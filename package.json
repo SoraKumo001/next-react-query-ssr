@@ -1,5 +1,5 @@
 {
-	"name": "next-use-query",
+	"name": "next-react-query-ssr",
 	"version": "1.0.0",
 	"main": "index.js",
 	"license": "MIT",
@@ -9,15 +9,15 @@
 		"start": "next start"
 	},
 	"dependencies": {
-		"@tanstack/react-query": "^5.62.2",
+		"@tanstack/react-query": "^5.62.3",
 		"next": "^15.0.4",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",
-		"react-query-ssr": "^0.0.1"
+		"react-query-ssr": "^1.0.0"
 	},
 	"devDependencies": {
 		"@types/node": "22.10.1",
-		"@types/react": "19.0.0",
+		"@types/react": "19.0.1",
 		"typescript": "5.7.2"
 	}
 }
