@@ -1,5 +1,7 @@
 # react-query-ssr
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/SoraKumo001/next-react-query-ssr)
+
 ## overview
 
 SSR functionality with react-query.
